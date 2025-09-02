@@ -1,1 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vmin;
+}
+
+.left {
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 5vmin;
+    gap: 10vmin;
+}
+
+img {
+    flex: 1;
+    width: 25vw;
+    height: 25vh;
+    border-radius: 5vmin;
+}
+
+.deatils {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2vmin;
+    height: 100%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #222;
+    border-bottom: 2px solid #4cafef;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.lower{
+    width: 100%;
+}
+
+#skills{
+    width: 100%; 
+    padding: 0px 5vmin;
+}
+.skills {
+    margin-top: 20px;
+    /* width:100%;
+    padding: 0px 5vmin; */
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.skill i {
+    margin-right: 10px;
+    color: #4cafef;
+}
+
+.progress {
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+    width: 60%;
+    margin-top: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #4cafef;
+    text-align: right;
+    padding-right: 5px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.right {
+    flex: 1;
+    background-color: lightblue;
+    height: 100vh;
+}
+.about{
+    padding: 0px 10vmin;
+}
+.AboutMe{
+    margin-top: 7vmin;
+    line-height: 5vmin;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 2vmin;
+}
